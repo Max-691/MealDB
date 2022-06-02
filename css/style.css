@@ -6,3 +6,15 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+section{
+  border: solid 2px red;
+  display: flex;
+  justify-content: space-around;
+}
+
+section article{
+  border: solid 1px green;
+  display: flex;
+  flex-direction: column;
+}
